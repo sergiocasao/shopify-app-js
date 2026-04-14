@@ -1,5 +1,19 @@
 # @shopify/shopify-app-react-router
 
+## 1.2.1
+
+### Patch Changes
+
+- a71dc5c: Add @publicDocs JSDoc tags to top-level types and upgrade @shopify/generate-docs to v1.1.0 to enable v2 documentation pipeline.
+- e510582: Updated `@graphql-codegen/introspection`, ` @graphql-codegen/typescript`, ` isbot` dependencies
+- 0bdc123: `AppProxyLink` now uses `forwardRef`, allowing consumers to attach a ref to the
+  underlying `<a>` element (e.g. `anchor.current.focus()`).
+- Updated dependencies [9264a64]
+- Updated dependencies [e510582]
+- Updated dependencies [7ec655a]
+  - @shopify/shopify-api@13.1.0
+  - @shopify/shopify-app-session-storage@5.0.1
+
 ## 1.2.0
 
 ### Minor Changes
